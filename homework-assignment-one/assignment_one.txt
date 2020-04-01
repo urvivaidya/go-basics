@@ -9,10 +9,10 @@ For every input that the user provides, display if the number is even or odd.
 Question 3:
 Display the sum of all the numbers without using an array
 
-1. Take a number from the user and then take
+Question 4: 
+Take a number from the user and then take
 that meany inputs from the user. Display the 
 final sum to the user. 
-
 
 Example:
 "Enter the number of numbers "
