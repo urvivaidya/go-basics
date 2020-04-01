@@ -34,3 +34,16 @@ Enter number 5
 *User enters 5*
 
 The sum is 25
+
+Question 5:
+In addition to the number of numbers, 
+The user will give you lower limit and 
+upper limit. 
+WAP to figure out how mnay of the inputs 
+fall in this windows of ll and ul
+//if x>ll&&x<ul 
+
+Question 6: 
+User will provide ll and ul, print all the 
+even and odd numbers in this window between ll
+and ul
