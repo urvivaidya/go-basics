@@ -7,15 +7,15 @@ func main() {
 	var input int
 	fmt.Scanf("%d", &input)
 
-	finalAnswer := 0
 	for i := 1; i <= input; i++ {
-		fmt.Println("Enter a number", i, ":")
+		fmt.Println("Enter number", i, ":")
 		var x int
 		fmt.Scanf("%d", &x)
-
-		if x > finalAnswer {
-			finalAnswer = x
+		if x%2 == 0 {
+			fmt.Println("even")
+		} else {
+			fmt.Println("odd")
 		}
 	}
-	fmt.Println("Answer", finalAnswer)
+
 }
