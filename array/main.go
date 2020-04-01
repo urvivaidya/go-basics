@@ -9,7 +9,7 @@ func main() {
 	x[index] = 100
 	fmt.Println(x)
 	excercise()
-	excercise2()
+
 }
 
 func excercise() {
@@ -19,10 +19,4 @@ func excercise() {
 
 	}
 	fmt.Println(y)
-}
-
-func excercise2() {
-	fmt.Print("Enter a number: ")
-	var input int
-	fmt.Scanf("%f", &input)
 }
