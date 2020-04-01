@@ -12,7 +12,7 @@ func main() {
 
 	var total float64 = 0
 	for i := 0; i < 5; i++ {
-		total += x[i]
+		total += float64(x[i])
 	}
 	fmt.Println(total / 5)
 
