@@ -1,0 +1,25 @@
+1. Take a number from the user and then take
+that meany inputs from the user. Display the 
+final sum to the user. 
+
+
+Example:
+"Enter the number of numbers "
+* User enters 5 *
+
+Enter number 1
+*User enters 5*
+
+Enter number 2
+*User enters 5*
+
+Enter number 3
+*User enters 5*
+
+Enter number 4
+*User enters 5*
+
+Enter number 5
+*User enters 5*
+
+The sum is 25

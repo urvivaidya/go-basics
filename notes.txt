@@ -1,0 +1,39 @@
+1) Why and where do we use string literals?
+
+Q2) Understand this piece of code 
+
+func main() {
+	const name, age = "Kim", 22
+	fmt.Println(name, "is", age, "years old.")
+
+	// It is conventional not to worry about any
+	// error returned by Println.
+
+}
+
+3) Binary numbers.
+
+0       0       0   0           0   0   0   1
+0*2^7 + 0*2^6  + ....................  +   1*2^0
+=  1
+
+1111    1111
+128 + 64 + 32 + 16 + 8 + 4 + 2 + 1
+
+Q4. How to find the length of the product of two numbers?
+fmt.Println("32132 x 42252 =", 32132*42452)
+	fmt.Println(len(32132*42452 + ""))
+DOES NOT COMPILE
+
+5) Booleans are always returns in the value of true or false. 
+the == operator works like an OR opeartor and will therefore,
+return a boolean.
+
+Q.6) how to use floating numbers in an equation?
+
+7) in the for loop as addition and subtraction of 1 is very common it 
+can be done directly using ++ or -- for addition or subtraction directly. 
+
+8)  total += x[i]
+therefore total = total + x[i]
+
