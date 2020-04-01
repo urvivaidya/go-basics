@@ -3,19 +3,18 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Enter a number:")
-	var input int
-	fmt.Scanf("%d", &input)
 
 	var numbers [5]int
 
 	var total int = 0
-	for i := 1; i <= input; i++ {
+	for i := 0; i < 5; i++ {
 		fmt.Println("Enter number", i, ":")
 		var x int
 		fmt.Scanf("%d", &x)
 		numbers[i] = x
 		total += numbers[i]
+
 	}
 	fmt.Println("Answer:", total)
+
 }
